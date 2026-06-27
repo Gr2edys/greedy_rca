@@ -61,6 +61,10 @@ CATEGORY_KEYWORDS = [
     ('分层NRF管理', 'Nnrf'),
     ('本地NRF功能管理', 'Nnrf'),
     ('NF与NRF注册关系', 'Nnrf'),
+    ('NRF FQDN配置管理', 'Nnrf'),
+    ('NRF局向流控参数', 'Nnrf'),
+    ('NF与NRF间全局管理参数管理', 'Nnrf'),
+    ('SMSF割接场景NRF处理策略', 'Nnrf'),
 
     ('NSSF业务及策略管理', 'N22'),
     ('NSSF功能参数配置', 'N22'),
@@ -96,19 +100,25 @@ CATEGORY_KEYWORDS = [
     ('N2接口DTLS安全管理', 'N2'),
     ('N2接口SCTP链路管理', 'N2'),
     ('N2模式反压流控管理', 'N2'),
+    ('N2接口固定速率流控管理', 'N2'),
+    ('显示N2链路信息', 'N2'),
 
     ('NGAP兼容性参数管理', 'N2'),
     ('NG寻呼策略管理', 'N2'),
     ('NG寻呼数据', 'N2'),
     ('NG接入', 'N2'),
+    ('NG TALIST寻呼管理', 'N2'),
+    ('显示NGAP链路信息', 'N2'),
+    ('地址分配N2TAC段', 'N2'),
+    ('TAC组的N2 TAC段', 'N2'),
 
     ('N26互操作策略', 'N26'),
     ('N26互操作管理', 'N26'),
     ('N26接口管理', 'N26'),
     ('N26消息抄送路径', 'N26'),
     ('N26策略管理', 'N26'),
-    ('N26消息抄送路径', 'N26'),
     ('N26接口', 'N26'),
+    ('N26融合网关选择策略', 'N26'),
 
     ('N40消息属性模板', 'N40'),
     ('N40诊断值Trigger', 'N40'),
@@ -123,21 +133,60 @@ CATEGORY_KEYWORDS = [
     ('Diameter链路', 'Diameter'),
     ('Diameter协议', 'Diameter'),
     ('Diameter参数', 'Diameter'),
+    ('Diameter本端信息', 'Diameter'),
+    ('Diameter主机路由', 'Diameter'),
+    ('Diameter虚拟本地实体', 'Diameter'),
+    ('Diameter AVP表', 'Diameter'),
+    ('Diameterl流控管理', 'Diameter'),
+    ('Diameter AAA服务器和Diameter AAA服务器组的绑定关系', 'Diameter'),
+    ('Diameter AAA服务器状态', 'Diameter'),
+    ('Diameter基本信息或Peer连接信息', 'Diameter'),
+    ('Diameter AAA组', 'Diameter'),
+    ('Diameter AAA信息', 'Diameter'),
+    ('Diamter本端主机组绑定', 'Diameter'),
+    ('Diamter本端主机组', 'Diameter'),
+    ('动态Diameter AAA', 'Diameter'),
+    ('APN的Diameter AAA组', 'Diameter'),
+    ('关联UPF组与Diameter本端主机组的关联关系', 'Diameter'),
+    ('UPF组与Diam本端主机组的绑定关系组', 'Diameter'),
 
     ('GTP-C接口类型属性', 'GTP-C'),
     ('GTP-C路径维护', 'GTP-C'),
     ('GTP-C路径扫描参数', 'GTP-C'),
     ('GTP-C功能参数', 'GTP-C'),
     ('GTP-C固定速率流控管理', 'GTP-C'),
+    ('GTP-C V0 V1协议兼容性', 'GTP-C'),
+    ('GTP-C V2协议兼容性', 'GTP-C'),
+    ('GTP-C T3/N3参数', 'GTP-C'),
+    ('GTP-C本地实体组', 'GTP-C'),
+    ('GTP-C本地实体组成员', 'GTP-C'),
+    ('GTP-C路径管理', 'GTP-C'),
+    ('GTP-C路径管理自定义策略', 'GTP-C'),
+    ('GTP-C路径策略管理', 'GTP-C'),
+    ('GTP-C路径白名单', 'GTP-C'),
+    ('GTP-C协议参数配置', 'GTP-C'),
+    ('GTP-C接口信息管理', 'GTP-C'),
+    ('GTPv1 PDP流程原因值控制', 'GTP-C'),
+    ('GTPv2会话流程原因值控制', 'GTP-C'),
+    ('GTP原因值管理', 'GTP-C'),
+    ('GTPP本地信息', 'GTP-C'),
+    ('GTP会话协议参数', 'GTP-C'),
 
     ('GTP-U参数管理', 'GTP-U'),
     ('GTP-U协议参数管理', 'GTP-U'),
     ('GTP-U接口类型属性', 'GTP-U'),
+    ('GTP-U路径管理', 'GTP-U'),
+    ('GTP-U路径管理自定义策略', 'GTP-U'),
 
     ('SCTP本地实体组', 'SCTP'),
     ('SCTP管理', 'SCTP'),
     ('SCTP统计信息', 'SCTP'),
     ('SCTP偶联', 'SCTP'),
+    ('SCTP端点', 'SCTP'),
+    ('SCTP本地实体', 'SCTP'),
+    ('SCTP模板', 'SCTP'),
+    ('SCTP测量对象', 'SCTP'),
+    ('SCTP基础参数', 'SCTP'),
 
     ('SCCP目的信令点', 'SS7'),
     ('SCCP子系统', 'SS7'),
@@ -168,6 +217,23 @@ CATEGORY_KEYWORDS = [
     ('HTTP局向管理', 'SBI/HTTP'),
     ('HTTP状态码管理', 'SBI/HTTP'),
     ('HTTP OAuth安全管理', 'SBI/HTTP'),
+    ('HTTP链路内部统计管理', 'SBI/HTTP'),
+    ('HTTP VPN映射管理', 'SBI/HTTP'),
+    ('HTTP CCA安全管理', 'SBI/HTTP'),
+    ('HTTP流控属性管理', 'SBI/HTTP'),
+    ('HTTP指定消息类型固定速率流控管理', 'SBI/HTTP'),
+    ('HTTP FQDN管理', 'SBI/HTTP'),
+    ('HTTP全局固定带宽流控管理', 'SBI/HTTP'),
+    ('HTTP HTR全局配置管理', 'SBI/HTTP'),
+    ('HTTP CHR上报管理', 'SBI/HTTP'),
+    ('HTTP内存流控管理', 'SBI/HTTP'),
+    ('HTTP消息日志管理', 'SBI/HTTP'),
+    ('HTTP进程状态管理', 'SBI/HTTP'),
+    ('HTR流控', 'SBI/HTTP'),
+    ('统一HTR流控', 'SBI/HTTP'),
+    ('查询HTR局向信息', 'SBI/HTTP'),
+    ('查询HTR局向统计信息', 'SBI/HTTP'),
+    ('HTTP HTR流控安全边界管理', 'SBI/HTTP'),
 
     ('DNS客户端管理', 'DNS'),
     ('DNS服务器管理', 'DNS'),
@@ -178,10 +244,20 @@ CATEGORY_KEYWORDS = [
     ('DNS IPv6动态域名', 'DNS'),
     ('DNS报文统计', 'DNS'),
     ('DNS代理', 'DNS'),
+    ('DNS本端实体管理', 'DNS'),
+    ('DNS NAPTR管理', 'DNS'),
+    ('DNS运行参数', 'DNS'),
+    ('DNS查询管理', 'DNS'),
+    ('DNS客户端缓存管理', 'DNS'),
+    ('缺省DNS', 'DNS'),
+    ('清除DNS Cache', 'DNS'),
+    ('查询DNS Link', 'DNS'),
+    ('APN DNS域名策略', 'DNS'),
+    ('SGSN DNS解析', 'DNS'),
+    ('UPF组DNS域名策略', 'DNS'),
 
     # ── 核心网功能映射 ──
     ('UPF管理', 'N4'),
-    ('UPF组DNS域名策略', 'SMF通用'),
     ('UPF组与Diam', 'SMF通用'),
     ('UPF绑定GnGp或S5S8接口', 'N4'),
     ('UPF绑定S11接口', 'N4'),
@@ -564,7 +640,7 @@ CATEGORY_KEYWORDS = [
     ('漫游参数管理', 'SMF通用'),
     ('漫游功能', 'SMF通用'),
 
-    ('SMSF割接场景NRF处理策略', 'SMSF通用'),
+
     ('SMSF自保流控', 'SMSF通用'),
     ('SMSF功能开关', 'SMSF通用'),
     ('SMSF固定速率流控', 'SMSF通用'),
@@ -821,9 +897,7 @@ CATEGORY_KEYWORDS = [
     ('固定速率流控', '平台'),
     ('系统流控参数管理', '平台'),
     ('系统流控队列管理', '平台'),
-    ('统一HTR流控', '平台'),
-    ('HTR流控', '平台'),
-    ('查询HTR局向信息', '平台'),
+
     ('信令抑制', '平台'),
     ('过载控制', '平台'),
 
@@ -1328,7 +1402,7 @@ CATEGORY_KEYWORDS = [
     ('M2M控制参数', '平台'),
     ('M2M信令控制', '平台'),
     ('基于APN的信令控制参数', '平台'),
-    ('查询HTR局向统计信息', '平台'),
+
     ('发送MME配置信息', '平台'),
     ('S1接口寻呼数据', '平台'),
     ('SM模块信息', '平台'),
@@ -1448,8 +1522,8 @@ CATEGORY_KEYWORDS = [
     ('gNodeB邻接关系管理', 'N2'),
     ('NGRAN接入管理控制', 'N2'),
     ('CSLB隧道探测参数', '平台'),
-    ('HTTP HTR流控安全边界管理', '平台'),
-    ('HTTP TLS证书场景管理', '平台'),
+
+    ('HTTP TLS证书场景管理', 'SBI/HTTP'),
     ('HTTP TLS安全管理', 'SBI/HTTP'),
     ('HTTP TLS预共享密钥组管理', 'SBI/HTTP'),
     ('NFVI分批升级管理', '平台'),
@@ -2455,6 +2529,13 @@ def parse_navi(navi_path):
                 if s[2]:
                     parent_cat = s[1]
                     break
+            
+            # Fallback: if no LinkedDoc parent found, use nearest topic as category
+            if not parent_cat:
+                for s in reversed(stack[:-1]):
+                    if not s[2] and not s[3]:  # regular topic (not LinkedDoc, not Document)
+                        parent_cat = s[1]
+                        break
 
             url_match = re.search(r'url="([^"]+)"', line)
             url = url_match.group(1) if url_match else ''
