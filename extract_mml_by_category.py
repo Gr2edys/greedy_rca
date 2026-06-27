@@ -2489,12 +2489,26 @@ CATEGORY_KEYWORDS = [
     ('应用Dampening', '平台'),
 ]
 
-def classify_category(category_name):
-    """根据命令组名返回接口分类，未匹配返回 '未分类'（大小写敏感）"""
+def classify_category(category_name, cmd_name=''):
+    """根据命令组名返回接口分类，未匹配返回 '未分类'（大小写敏感）
+    当组匹配结果为 '平台' 时，检查命令名是否含 SMF/AMF/SMSF 做二次判定"""
     for keyword, interface in CATEGORY_KEYWORDS:
         if keyword in category_name:
-            return interface
-    return '未分类'
+            result = interface
+            break
+    else:
+        result = '未分类'
+
+    # 二次判定：组结果是"平台"时，看命令名是否指向具体 NF
+    if result == '平台' and cmd_name:
+        if 'SMF' in cmd_name:
+            result = 'SMF通用'
+        elif 'AMF' in cmd_name:
+            result = 'AMF通用'
+        elif 'SMSF' in cmd_name:
+            result = 'SMSF通用'
+
+    return result
 
 
 def parse_navi(navi_path):
@@ -2540,7 +2554,7 @@ def parse_navi(navi_path):
             url_match = re.search(r'url="([^"]+)"', line)
             url = url_match.group(1) if url_match else ''
 
-            interface = classify_category(parent_cat or '')
+            interface = classify_category(parent_cat or '', cmd)
 
             # 标记 KPI 关联方式
             # 接口级/NK级：可通过接口/网元名关联到对应 KPI
