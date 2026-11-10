@@ -1,0 +1,242 @@
+[
+ {
+  "id": "1727317513",
+  "name": "N7会话授权请求次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1727317515",
+  "name": "N7会话授权请求失败次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1727317516",
+  "name": "N7会话授权修改次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1727317518",
+  "name": "N7会话授权修改失败次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1727317520",
+  "name": "N7会话授权终止成功次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1727317523",
+  "name": "N7会话更新通知成功次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1727317588",
+  "name": "移动策略关联授权请求次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1727317589",
+  "name": "移动策略关联授权请求成功次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1727317592",
+  "name": "移动策略关联授权修改成功次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1727317595",
+  "name": "移动策略关联授权终止成功次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1727317598",
+  "name": "移动策略关联更新通知成功次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1931103839",
+  "name": "移动策略关联授权请求失败次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1931104186",
+  "name": "N28会话请求成功次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1931104190",
+  "name": "N28会话更新成功次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1931104194",
+  "name": "N28会话终止成功次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1931104198",
+  "name": "N28会话通知更新成功次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1931105117",
+  "name": "N15接口Npcf_AMPolicyControl_Create请求尝试次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1931124542",
+  "name": "N7接口Npcf_SMPolicyControl_Create请求尝试次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1931124545",
+  "name": "N7接口Npcf_SMPolicyControl_Update请求尝试次数",
+  "category": "PCF业务KPI"
+ },
+ {
+  "id": "1727317536",
+  "name": "N7最大在线会话数",
+  "category": "PCF主KPI"
+ },
+ {
+  "id": "1931103830",
+  "name": "N7会话授权请求成功率",
+  "category": "PCF主KPI"
+ },
+ {
+  "id": "1931103831",
+  "name": "N7会话授权修改成功率",
+  "category": "PCF主KPI"
+ },
+ {
+  "id": "1931103832",
+  "name": "N7会话授权终止成功率",
+  "category": "PCF主KPI"
+ },
+ {
+  "id": "1931103833",
+  "name": "N7会话更新通知成功率",
+  "category": "PCF主KPI"
+ },
+ {
+  "id": "1931103854",
+  "name": "移动策略关联授权请求成功率",
+  "category": "PCF主KPI"
+ },
+ {
+  "id": "1931103855",
+  "name": "移动策略关联授权修改请求成功率",
+  "category": "PCF主KPI"
+ },
+ {
+  "id": "1931103856",
+  "name": "移动策略关联授权终止请求成功率",
+  "category": "PCF主KPI"
+ },
+ {
+  "id": "1931103857",
+  "name": "移动策略关联更新通知成功率",
+  "category": "PCF主KPI"
+ },
+ {
+  "id": "1931104203",
+  "name": "N28会话请求成功率",
+  "category": "PCF主KPI"
+ },
+ {
+  "id": "1931104204",
+  "name": "N28会话更新成功率",
+  "category": "PCF主KPI"
+ },
+ {
+  "id": "1931104205",
+  "name": "N28会话终止成功率",
+  "category": "PCF主KPI"
+ },
+ {
+  "id": "1931104206",
+  "name": "N28会话通知更新成功率",
+  "category": "PCF主KPI"
+ },
+ {
+  "id": "1908081110",
+  "name": "LB发送包数",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1908081400",
+  "name": "ScaleGroup负载最大值",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1908081450",
+  "name": "RU CPU利用率最大值",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1929379841",
+  "name": "节点CPU利用率平均值",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1929379842",
+  "name": "节点内存利用率平均值",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1929379843",
+  "name": "PodCPU利用率平均值",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1929379844",
+  "name": "Pod内存利用率平均值",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1929379845",
+  "name": "系统平均负荷平均值",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1929379846",
+  "name": "系统最大负荷平均值",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1929379847",
+  "name": "虚拟Disk使用率",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1929379848",
+  "name": "节点磁盘利用率",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1929379849",
+  "name": "节点CPU利用率最大值",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1929379850",
+  "name": "PodCPU利用率最大值",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1929379851",
+  "name": "节点CPU过载时长",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1929379852",
+  "name": "节点内存过载时长",
+  "category": "PCF平台KPI"
+ },
+ {
+  "id": "1929392896",
+  "name": "虚拟机workload使用率",
+  "category": "PCF平台KPI"
+ }
+]
