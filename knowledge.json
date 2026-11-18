@@ -3779,7 +3779,7 @@
    "props": {
     "type": "normal",
     "ne_type": "SAE-HSS",
-    "relationship": "ALM-135643-SAE-HSS-persists-Res",
+    "relationship": "",
     "des": "SAE-HSS网元存储Bypass后进程异常"
    }
   },
@@ -6392,7 +6392,7 @@
    "props": {
     "type": "normal",
     "ne_type": "AMF",
-    "relationship": "ALM-135643-AMF-persists-Res",
+    "relationship": "",
     "des": "AMF网元存储Bypass后进程异常"
    }
   },
@@ -18518,7 +18518,7 @@
    "props": {
     "type": "normal",
     "ne_type": "SMF",
-    "relationship": "ALM-135643-SMF-persists-Res",
+    "relationship": "",
     "des": "SMF网元存储Bypass后进程异常"
    }
   },
@@ -25397,7 +25397,7 @@
    "props": {
     "type": "normal",
     "ne_type": "ENS",
-    "relationship": "ALM-135643-ENS-persists-Res",
+    "relationship": "",
     "des": "ENS网元存储Bypass后进程异常"
    }
   },
@@ -32483,7 +32483,7 @@
    "props": {
     "type": "normal",
     "ne_type": "UDM",
-    "relationship": "ALM-135643-UDM-persists-Res",
+    "relationship": "",
     "des": "UDM网元存储Bypass后进程异常"
    }
   },
@@ -38568,7 +38568,7 @@
    "props": {
     "type": "normal",
     "ne_type": "PCF",
-    "relationship": "ALM-135643-PCF-persists-Res",
+    "relationship": "",
     "des": "PCF网元存储Bypass后进程异常"
    }
   },
@@ -40533,7 +40533,7 @@
    "props": {
     "type": "normal",
     "ne_type": "UIM",
-    "relationship": "ALM-135643-UIM-persists-Res",
+    "relationship": "",
     "des": "UIM网元存储Bypass后进程异常"
    }
   },
@@ -43743,7 +43743,7 @@
    "props": {
     "type": "normal",
     "ne_type": "CHF",
-    "relationship": "ALM-135643-CHF-persists-Res",
+    "relationship": "",
     "des": "CHF网元存储Bypass后进程异常"
    }
   },
@@ -45769,7 +45769,7 @@
    "props": {
     "type": "normal",
     "ne_type": "DRA",
-    "relationship": "ALM-135643-DRA-persists-Res",
+    "relationship": "",
     "des": "DRA网元存储Bypass后进程异常"
    }
   },
@@ -52065,7 +52065,7 @@
    "props": {
     "type": "normal",
     "ne_type": "MME",
-    "relationship": "ALM-135643-MME-persists-Res",
+    "relationship": "",
     "des": "MME网元存储Bypass后进程异常"
    }
   },
@@ -54038,7 +54038,7 @@
    "props": {
     "type": "normal",
     "ne_type": "S/PGWC",
-    "relationship": "ALM-135643-S/PGWC-persists-Res",
+    "relationship": "",
     "des": "S/PGWC网元存储Bypass后进程异常"
    }
   },
@@ -56003,7 +56003,7 @@
    "props": {
     "type": "normal",
     "ne_type": "SCP",
-    "relationship": "ALM-135643-SCP-persists-Res",
+    "relationship": "",
     "des": "SCP网元存储Bypass后进程异常"
    }
   },
@@ -57968,7 +57968,7 @@
    "props": {
     "type": "normal",
     "ne_type": "BSF",
-    "relationship": "ALM-135643-BSF-persists-Res",
+    "relationship": "",
     "des": "BSF网元存储Bypass后进程异常"
    }
   },
@@ -62207,7 +62207,7 @@
    "props": {
     "type": "normal",
     "ne_type": "PCRF",
-    "relationship": "ALM-135643-PCRF-persists-Res",
+    "relationship": "",
     "des": "PCRF网元存储Bypass后进程异常"
    }
   },
@@ -80158,7 +80158,7 @@
    "props": {
     "type": "normal",
     "ne_type": "STP",
-    "relationship": "ALM-135643-STP-persists-Res",
+    "relationship": "",
     "des": "STP网元存储Bypass后进程异常"
    }
   },
@@ -99308,7 +99308,7 @@
    "props": {
     "type": "normal",
     "ne_type": "UPF",
-    "relationship": "ALM-135643-UPF-persists-Res",
+    "relationship": "",
     "des": "UPF网元存储Bypass后进程异常"
    }
   },
@@ -127426,7 +127426,7 @@
    "props": {
     "type": "normal",
     "ne_type": "NRF",
-    "relationship": "ALM-135643-NRF-persists-Res",
+    "relationship": "",
     "des": "NRF网元存储Bypass后进程异常"
    }
   },
@@ -142746,7 +142746,7 @@
    "props": {
     "type": "normal",
     "ne_type": "NSSF",
-    "relationship": "ALM-135643-NSSF-persists-Res",
+    "relationship": "",
     "des": "NSSF网元存储Bypass后进程异常"
    }
   },
@@ -156678,7 +156678,7 @@
    "props": {
     "type": "normal",
     "ne_type": "PGW-U",
-    "relationship": "ALM-135643-PGW-U-persists-Res",
+    "relationship": "",
     "des": "PGW-U网元存储Bypass后进程异常"
    }
   },
@@ -159129,7 +159129,7 @@
    "props": {
     "type": "normal",
     "ne_type": "P-GW",
-    "relationship": "ALM-135643-P-GW-persists-Res",
+    "relationship": "",
     "des": "P-GW网元存储Bypass后进程异常"
    }
   },
@@ -170327,7 +170327,7 @@
    "props": {
     "type": "normal",
     "ne_type": "SGW-U",
-    "relationship": "ALM-135643-SGW-U-persists-Res",
+    "relationship": "",
     "des": "SGW-U网元存储Bypass后进程异常"
    }
   },
@@ -193938,7 +193938,7 @@
    "props": {
     "type": "normal",
     "ne_type": "S-GW",
-    "relationship": "ALM-135643-S-GW-persists-Res",
+    "relationship": "",
     "des": "S-GW网元存储Bypass后进程异常"
    }
   },
@@ -200694,7 +200694,7 @@
    "props": {
     "type": "normal",
     "ne_type": "SMSF",
-    "relationship": "ALM-135643-SMSF-persists-Res",
+    "relationship": "",
     "des": "SMSF网元存储Bypass后进程异常"
    }
   },
@@ -264640,7 +264640,7 @@
    "props": {
     "type": "normal",
     "ne_type": "S/PGWU",
-    "relationship": "ALM-135643-S/PGWU-persists-Res",
+    "relationship": "",
     "des": "S/PGWU网元存储Bypass后进程异常"
    }
   },
@@ -298606,7 +298606,7 @@
    "props": {
     "type": "normal",
     "ne_type": "AUSF",
-    "relationship": "ALM-135643-AUSF-persists-Res",
+    "relationship": "",
     "des": "AUSF网元存储Bypass后进程异常"
    }
   },
@@ -302090,7 +302090,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-SAE-HSS-persists-Res",
    "dst": "SAE-HSS-StorByp-Mid",
-   "condition": "SAE-HSS-Resource-Abnormal",
+   "condition": "",
    "id": "496"
   },
   {
@@ -304960,7 +304960,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-AMF-persists-Res",
    "dst": "AMF-StorByp-Mid",
-   "condition": "AMF-Resource-Abnormal",
+   "condition": "",
    "id": "906"
   },
   {
@@ -318687,7 +318687,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-SMF-persists-Res",
    "dst": "SMF-StorByp-Mid",
-   "condition": "SMF-Resource-Abnormal",
+   "condition": "",
    "id": "2867"
   },
   {
@@ -331378,7 +331378,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-ENS-persists-Res",
    "dst": "ENS-StorByp-Mid",
-   "condition": "ENS-Resource-Abnormal",
+   "condition": "",
    "id": "4680"
   },
   {
@@ -342298,7 +342298,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-UDM-persists-Res",
    "dst": "UDM-StorByp-Mid",
-   "condition": "UDM-Resource-Abnormal",
+   "condition": "",
    "id": "6240"
   },
   {
@@ -353414,7 +353414,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-PCF-persists-Res",
    "dst": "PCF-StorByp-Mid",
-   "condition": "PCF-Resource-Abnormal",
+   "condition": "",
    "id": "7828"
   },
   {
@@ -355206,7 +355206,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-UIM-persists-Res",
    "dst": "UIM-StorByp-Mid",
-   "condition": "UIM-Resource-Abnormal",
+   "condition": "",
    "id": "8084"
   },
   {
@@ -359441,7 +359441,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-CHF-persists-Res",
    "dst": "CHF-StorByp-Mid",
-   "condition": "CHF-Resource-Abnormal",
+   "condition": "",
    "id": "8689"
   },
   {
@@ -361324,7 +361324,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-DRA-persists-Res",
    "dst": "DRA-StorByp-Mid",
-   "condition": "DRA-Resource-Abnormal",
+   "condition": "",
    "id": "8958"
   },
   {
@@ -368807,7 +368807,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-MME-persists-Res",
    "dst": "MME-StorByp-Mid",
-   "condition": "MME-Resource-Abnormal",
+   "condition": "",
    "id": "10027"
   },
   {
@@ -371733,7 +371733,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-S/PGWC-persists-Res",
    "dst": "S/PGWC-StorByp-Mid",
-   "condition": "S/PGWC-Resource-Abnormal",
+   "condition": "",
    "id": "10445"
   },
   {
@@ -373525,7 +373525,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-SCP-persists-Res",
    "dst": "SCP-StorByp-Mid",
-   "condition": "SCP-Resource-Abnormal",
+   "condition": "",
    "id": "10701"
   },
   {
@@ -375317,7 +375317,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-BSF-persists-Res",
    "dst": "BSF-StorByp-Mid",
-   "condition": "BSF-Resource-Abnormal",
+   "condition": "",
    "id": "10957"
   },
   {
@@ -381729,7 +381729,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-PCRF-persists-Res",
    "dst": "PCRF-StorByp-Mid",
-   "condition": "PCRF-Resource-Abnormal",
+   "condition": "",
    "id": "11873"
   },
   {
@@ -412970,7 +412970,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-STP-persists-Res",
    "dst": "STP-StorByp-Mid",
-   "condition": "STP-Resource-Abnormal",
+   "condition": "",
    "id": "16336"
   },
   {
@@ -451365,7 +451365,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-UPF-persists-Res",
    "dst": "UPF-StorByp-Mid",
-   "condition": "UPF-Resource-Abnormal",
+   "condition": "",
    "id": "21821"
   },
   {
@@ -505993,7 +505993,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-NRF-persists-Res",
    "dst": "NRF-StorByp-Mid",
-   "condition": "NRF-Resource-Abnormal",
+   "condition": "",
    "id": "29625"
   },
   {
@@ -533055,7 +533055,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-NSSF-persists-Res",
    "dst": "NSSF-StorByp-Mid",
-   "condition": "NSSF-Resource-Abnormal",
+   "condition": "",
    "id": "33491"
   },
   {
@@ -556302,7 +556302,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-PGW-U-persists-Res",
    "dst": "PGW-U-StorByp-Mid",
-   "condition": "PGW-U-Resource-Abnormal",
+   "condition": "",
    "id": "36812"
   },
   {
@@ -560537,7 +560537,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-P-GW-persists-Res",
    "dst": "P-GW-StorByp-Mid",
-   "condition": "P-GW-Resource-Abnormal",
+   "condition": "",
    "id": "37417"
   },
   {
@@ -581425,7 +581425,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-SGW-U-persists-Res",
    "dst": "SGW-U-StorByp-Mid",
-   "condition": "SGW-U-Resource-Abnormal",
+   "condition": "",
    "id": "40401"
   },
   {
@@ -630355,7 +630355,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-S-GW-persists-Res",
    "dst": "S-GW-StorByp-Mid",
-   "condition": "S-GW-Resource-Abnormal",
+   "condition": "",
    "id": "47391"
   },
   {
@@ -641863,7 +641863,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-SMSF-persists-Res",
    "dst": "SMSF-StorByp-Mid",
-   "condition": "SMSF-Resource-Abnormal",
+   "condition": "",
    "id": "49035"
   },
   {
@@ -764447,7 +764447,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-S/PGWU-persists-Res",
    "dst": "S/PGWU-StorByp-Mid",
-   "condition": "S/PGWU-Resource-Abnormal",
+   "condition": "",
    "id": "66547"
   },
   {
@@ -838248,7 +838248,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-AUSF-persists-Res",
    "dst": "AUSF-StorByp-Mid",
-   "condition": "AUSF-Resource-Abnormal",
+   "condition": "",
    "id": "77090"
   },
   {
