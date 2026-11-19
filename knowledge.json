@@ -302090,7 +302090,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-SAE-HSS-persists-Res",
    "dst": "SAE-HSS-StorByp-Mid",
-   "condition": "",
+   "condition": "SAE-HSS-Resource-Abnormal",
    "id": "496"
   },
   {
@@ -304960,7 +304960,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-AMF-persists-Res",
    "dst": "AMF-StorByp-Mid",
-   "condition": "",
+   "condition": "AMF-Resource-Abnormal",
    "id": "906"
   },
   {
@@ -318687,7 +318687,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-SMF-persists-Res",
    "dst": "SMF-StorByp-Mid",
-   "condition": "",
+   "condition": "SMF-Resource-Abnormal",
    "id": "2867"
   },
   {
@@ -331378,7 +331378,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-ENS-persists-Res",
    "dst": "ENS-StorByp-Mid",
-   "condition": "",
+   "condition": "ENS-Resource-Abnormal",
    "id": "4680"
   },
   {
@@ -342298,7 +342298,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-UDM-persists-Res",
    "dst": "UDM-StorByp-Mid",
-   "condition": "",
+   "condition": "UDM-Resource-Abnormal",
    "id": "6240"
   },
   {
@@ -353414,7 +353414,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-PCF-persists-Res",
    "dst": "PCF-StorByp-Mid",
-   "condition": "",
+   "condition": "PCF-Resource-Abnormal",
    "id": "7828"
   },
   {
@@ -355206,7 +355206,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-UIM-persists-Res",
    "dst": "UIM-StorByp-Mid",
-   "condition": "",
+   "condition": "UIM-Resource-Abnormal",
    "id": "8084"
   },
   {
@@ -359441,7 +359441,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-CHF-persists-Res",
    "dst": "CHF-StorByp-Mid",
-   "condition": "",
+   "condition": "CHF-Resource-Abnormal",
    "id": "8689"
   },
   {
@@ -361324,7 +361324,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-DRA-persists-Res",
    "dst": "DRA-StorByp-Mid",
-   "condition": "",
+   "condition": "DRA-Resource-Abnormal",
    "id": "8958"
   },
   {
@@ -368807,7 +368807,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-MME-persists-Res",
    "dst": "MME-StorByp-Mid",
-   "condition": "",
+   "condition": "MME-Resource-Abnormal",
    "id": "10027"
   },
   {
@@ -371733,7 +371733,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-S/PGWC-persists-Res",
    "dst": "S/PGWC-StorByp-Mid",
-   "condition": "",
+   "condition": "S/PGWC-Resource-Abnormal",
    "id": "10445"
   },
   {
@@ -373525,7 +373525,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-SCP-persists-Res",
    "dst": "SCP-StorByp-Mid",
-   "condition": "",
+   "condition": "SCP-Resource-Abnormal",
    "id": "10701"
   },
   {
@@ -375317,7 +375317,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-BSF-persists-Res",
    "dst": "BSF-StorByp-Mid",
-   "condition": "",
+   "condition": "BSF-Resource-Abnormal",
    "id": "10957"
   },
   {
@@ -381729,7 +381729,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-PCRF-persists-Res",
    "dst": "PCRF-StorByp-Mid",
-   "condition": "",
+   "condition": "PCRF-Resource-Abnormal",
    "id": "11873"
   },
   {
@@ -412970,7 +412970,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-STP-persists-Res",
    "dst": "STP-StorByp-Mid",
-   "condition": "",
+   "condition": "STP-Resource-Abnormal",
    "id": "16336"
   },
   {
@@ -451365,7 +451365,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-UPF-persists-Res",
    "dst": "UPF-StorByp-Mid",
-   "condition": "",
+   "condition": "UPF-Resource-Abnormal",
    "id": "21821"
   },
   {
@@ -505993,7 +505993,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-NRF-persists-Res",
    "dst": "NRF-StorByp-Mid",
-   "condition": "",
+   "condition": "NRF-Resource-Abnormal",
    "id": "29625"
   },
   {
@@ -533055,7 +533055,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-NSSF-persists-Res",
    "dst": "NSSF-StorByp-Mid",
-   "condition": "",
+   "condition": "NSSF-Resource-Abnormal",
    "id": "33491"
   },
   {
@@ -556302,7 +556302,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-PGW-U-persists-Res",
    "dst": "PGW-U-StorByp-Mid",
-   "condition": "",
+   "condition": "PGW-U-Resource-Abnormal",
    "id": "36812"
   },
   {
@@ -560537,7 +560537,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-P-GW-persists-Res",
    "dst": "P-GW-StorByp-Mid",
-   "condition": "",
+   "condition": "P-GW-Resource-Abnormal",
    "id": "37417"
   },
   {
@@ -581425,7 +581425,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-SGW-U-persists-Res",
    "dst": "SGW-U-StorByp-Mid",
-   "condition": "",
+   "condition": "SGW-U-Resource-Abnormal",
    "id": "40401"
   },
   {
@@ -630355,7 +630355,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-S-GW-persists-Res",
    "dst": "S-GW-StorByp-Mid",
-   "condition": "",
+   "condition": "S-GW-Resource-Abnormal",
    "id": "47391"
   },
   {
@@ -641863,7 +641863,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-SMSF-persists-Res",
    "dst": "SMSF-StorByp-Mid",
-   "condition": "",
+   "condition": "SMSF-Resource-Abnormal",
    "id": "49035"
   },
   {
@@ -764447,7 +764447,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-S/PGWU-persists-Res",
    "dst": "S/PGWU-StorByp-Mid",
-   "condition": "",
+   "condition": "S/PGWU-Resource-Abnormal",
    "id": "66547"
   },
   {
@@ -838248,7 +838248,7 @@
    "type": "Infer_edge",
    "src": "ALM-135643-AUSF-persists-Res",
    "dst": "AUSF-StorByp-Mid",
-   "condition": "",
+   "condition": "AUSF-Resource-Abnormal",
    "id": "77090"
   },
   {
